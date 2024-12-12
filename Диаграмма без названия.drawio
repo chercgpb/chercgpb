@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
+  <diagram name="Страница — 1" id="yxviuhudZ2c2qHFILoS6">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Puw4MYNxb-W_UJ5yxv3C-1" target="Puw4MYNxb-W_UJ5yxv3C-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-1" value="Сервис" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Puw4MYNxb-W_UJ5yxv3C-2" target="Puw4MYNxb-W_UJ5yxv3C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-6" value="http запрос" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Puw4MYNxb-W_UJ5yxv3C-5">
+          <mxGeometry x="0.0833" y="-2" relative="1" as="geometry">
+            <mxPoint x="-7" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-2" value="Локальная БД каталога" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Puw4MYNxb-W_UJ5yxv3C-8" target="Puw4MYNxb-W_UJ5yxv3C-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-8" value="KSOB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-10" value="KSOBD" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Puw4MYNxb-W_UJ5yxv3C-15" target="Puw4MYNxb-W_UJ5yxv3C-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1153" y="410" as="targetPoint" />
+            <mxPoint x="810" y="410.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Puw4MYNxb-W_UJ5yxv3C-18" target="Puw4MYNxb-W_UJ5yxv3C-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-17" value="http запрос" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Puw4MYNxb-W_UJ5yxv3C-16">
+          <mxGeometry x="0.0833" y="-2" relative="1" as="geometry">
+            <mxPoint x="-9" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-18" value="Локальная БД периодики" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-21" value="JOURN" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Puw4MYNxb-W_UJ5yxv3C-25" target="Puw4MYNxb-W_UJ5yxv3C-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-25" value="Сервис" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Puw4MYNxb-W_UJ5yxv3C-28" target="Puw4MYNxb-W_UJ5yxv3C-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-27" value="http запрос" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Puw4MYNxb-W_UJ5yxv3C-26">
+          <mxGeometry x="0.0833" y="-2" relative="1" as="geometry">
+            <mxPoint x="-8" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-28" value="Локальная БД каталога" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-29" value="Скрытая БД каталога" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Puw4MYNxb-W_UJ5yxv3C-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="410" as="targetPoint" />
+            <mxPoint x="800" y="410.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puw4MYNxb-W_UJ5yxv3C-15" value="Сервис" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
